@@ -41,6 +41,14 @@ To install the Nginx web server on a Linux system, you can follow these general 
 
 ![sudo apt install nginx](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/7a5c5c66-47bf-4145-bd07-4a8d0208feec)
 
+check the status of Nginx to ensure it's running without errors; you will use this command
+
+*$ sudo systemctl status nginx*
+
+![sudo systemctl status nginx](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/759a09cf-c380-4d51-b887-db3333d8d176)
+
+
+
 
 
 
