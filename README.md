@@ -22,10 +22,27 @@ Login to AWS Cloud Service console and create an Ubuntu EC2 instance. The virtua
 ![Projectlemp Ec2 instance](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/3be4774c-834c-4e05-8eda-6afbb5e2226e)
 
 Login into the instance via ssh:
+
 cd Downloads
+
 *$ ssh -i lemp.pem Ubuntu@13.48.43.228*
 
 ![ssh initial connection to ec2](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/89c2f101-67e5-40c1-8bac-7d2f7c10b8d2)
+
+**Installing the Nginx Web Server**
+
+To install the Nginx web server on a Linux system, you can follow these general steps. The specific commands may vary slightly depending on your Linux distribution. Here, I'll provide instructions for two common Linux distributions: Ubuntu/Debian and CentOS/RHEL.
+
+*$ sudo apt Update*
+
+*$ sudo apt install nginx*
+
+![sudo apt update](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/6f936da1-e23f-4810-a0bc-d923423de4aa)
+
+![sudo apt install nginx](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/7a5c5c66-47bf-4145-bd07-4a8d0208feec)
+
+
+
 
 
 
