@@ -74,6 +74,11 @@ Run *$ sudo apt install mysql-server*
 
 ![sudo apt install mysql server](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/15543f3b-7b43-4069-9157-75e1fb2e4ed3)
 
+Provide added security to our mysql server by running *$ sudo apt install mysql-secure_installation*. This script will remove some insecure default settings and lock down access to our database system.
+
+![sudo security pwd](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/7d317b2e-6dd6-4c41-b36f-36dae7954aeb)
+
+
 
 
 
