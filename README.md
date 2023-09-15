@@ -156,13 +156,13 @@ server {
 
 ![nano command](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/bff6c934-2cca-4c5c-b476-f1965db1a514)
 
-Currently, our new server block has been created and configured but currently, the default server block is the default block that comes with nginx install. To unlink it we sudo unlink /etc/sites-available/default.
+Currently, our new server block has been created and configured and the default server block is the default block that comes with nginx install. 
+
+To unlink, we sudo unlink /etc/sites-available/default.
 
 We then reload nginx for all configurations to take effect sudo reload nginx.
 
 Create an index.html file inside projectlempstack directory and write in contents to be accessed over the internet. Paste a public IP address on a browser to see the content.
-
-http://<public-ip>:80
 
 ![Lemp browser from the url](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/67478f27-c3dc-4340-88cf-db6873e555f1)
 
@@ -170,7 +170,7 @@ http://<public-ip>:80
 
 Create an info.php file inside the /var/www/projectlempstack directory.
 
-On a browser enter http://<public-ip>/info.php
+On a browser enter http://13.48.43.228/info.php
 
 ![info php webpage](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/aa5798c4-36cc-4f92-a3db-ab7e2c5c7495)
 
