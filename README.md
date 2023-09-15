@@ -45,7 +45,21 @@ check the status of Nginx to ensure it's running without errors; you will use th
 
 *$ sudo systemctl status nginx*
 
+A green text color shows that the server is active
+
 ![sudo systemctl status nginx](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/759a09cf-c380-4d51-b887-db3333d8d176)
+
+Accessing the default nginx web server block to see if everything works correctly. curl the local IP address of our local machine which in most case is 127.0.0.1 or the DNS name localhost on any web browser on our local machine.
+curl http://127.0.0.1:80 or curl http://localhost:80
+
+The below result shows nginx has been properly set up and we can deploy our web application.
+
+![curl http](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/3e5dc227-68b0-4189-9fa4-5ff4e58add12)
+
+
+
+
+
 
 
 
