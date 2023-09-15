@@ -84,7 +84,8 @@ With mysql_server successfully configured, login into the mysql server.
 
 *$ sudo mysql*
 
-![SUDO MYSQL DATABASE](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/807c0b0c-04e0-4926-9e54-f9f67e4d4cfb)
+![sudo mysql](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/9f957bb3-5e72-4d4a-bcd4-503333ceb06c)
+
 
 
 
