@@ -188,6 +188,29 @@ exit from the MySQL-server in which we are currently logged in as root users and
 
 ![SUDO MYSQL DATABASE](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/f1bebfd1-389f-460e-878d-0cd53a33854c)
 
+![CREATE LEMP DB](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/8310d4d7-79be-41d6-9c6d-412468722adc)
+
+We create a table for the current user inside the lemp_db database and specify content parameters
+
+CREATE TABLE lemp_db.todo_list(
+    item_id INT AUTO_INCREMENT,
+    content VARCHAR(255),
+    PRIMARY KEY (item_id)
+);
+
+Push in contents into the table INSERT INTO lemp_db.todo_list(content) VALUES ('enter contents')
+
+![lemp db todo list](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/8861cf88-7961-4592-8751-c4313f189075)
+
+Create a PHP file todo_list.php in /var/www/projectlempstack directory and paste the following code
+
+![nano todo list php](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/286361ea-0e68-4677-847b-2297aacd4cf9)
+
+
+
+
+
+
 
 
 
