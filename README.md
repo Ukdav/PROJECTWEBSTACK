@@ -1,4 +1,4 @@
-### PROJECTWEBSTACK
+![projectlempstack_creation](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/84e614b4-ee4b-4801-83b7-582a4d0a2706)### PROJECTWEBSTACK
 **WEB STACK IMPLEMENTATION (LEMP STACK)**
 
 **Deploying a LEMP Stack Application On AWS Cloud**
@@ -97,6 +97,24 @@ Installing PHP along with necessary modules is an essential step for web develop
 Run *$sudo apt install php-fpm php-mysql*
 
 php-fpm : which stands for PHP FastCGI Process Manager is a web tool used for speeding up the performance of a website by handling tremendous amounts of load simultaneously
+
+![php_installation](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/5262ff55-cfe7-4779-ac3f-6092fd180c6e)
+
+**Creating a Web Server Block For our Web Application**
+
+To serve our web content on our web server!, we create a directory for our project inside the /var/www/ directory.
+
+*$sudo mkdir /var/www/projectlempstack* Then we change permissions of the projectlempstack directory to the current user system
+
+*$sudo chown -R $USER:$USER /var/www/projectlempstack*
+
+![projectlempstack_creation](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/84798636-8fcb-4115-b109-9c3229778beb)
+
+
+
+
+
+
 
 
 
