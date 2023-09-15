@@ -122,6 +122,33 @@ The following snippets represent the configuration required for our web server b
 
 ![sudo nano](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/d6fb8d7d-6ce3-4262-b190-5a5a09e553d6)
 
+#/etc/nginx/sites-available/projectlempstack
+
+server {
+    listen 80;
+    server_name projectlempstack www.projectlempstack;
+    root /var/www/projectlempstack;
+
+    index index.html index.htm index.php;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+     }
+
+    location ~ /\.ht {
+        deny all;
+    }
+
+}
+
+![nano command](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/bff6c934-2cca-4c5c-b476-f1965db1a514)
+
+
 
 
 
