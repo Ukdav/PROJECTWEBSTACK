@@ -1,4 +1,4 @@
-![projectlempstack_creation](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/84e614b4-ee4b-4801-83b7-582a4d0a2706)### PROJECTWEBSTACK
+## PROJECTWEBSTACK
 **WEB STACK IMPLEMENTATION (LEMP STACK)**
 
 **Deploying a LEMP Stack Application On AWS Cloud**
