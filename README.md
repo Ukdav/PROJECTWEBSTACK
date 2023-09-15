@@ -56,6 +56,26 @@ The below result shows nginx has been properly set up and we can deploy our web 
 
 ![curl http](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/3e5dc227-68b0-4189-9fa4-5ff4e58add12)
 
+Before we receive traffic from our web server, we need to open TCP port: 80 which is the default port that a web browser uses to open a website or access a webpage on the internet.
+
+As we already know port 22 has already been opened by default on our EC2 machine to access it via SSH connection, so we need to add a rule to EC2 configuration to open an inbound connection of TCP PORT 80.
+
+![create inound rules](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/8ee35398-af73-4f43-8bf8-622c35e8a6b2)
+
+It appears our default nginx server is accessible locally on our local machine. To check if we can access the default server block over the internet on our local machine, insert the public IP address of the server on a browser.
+
+![nginx web server](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/99e01fbe-58bc-47ca-b65e-94e22eff721b)
+
+**Installing MySQL**
+
+We have succeeded in setting up our nginx webserver and ensured its accessible over the internet. Next is to install mySQL which is a relational database management server to help store data and manage content on our web application.
+
+Run *$ sudo apt install mysql-server*
+
+![sudo apt install mysql server](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/15543f3b-7b43-4069-9157-75e1fb2e4ed3)
+
+
+
 
 
 
