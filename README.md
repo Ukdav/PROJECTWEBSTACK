@@ -80,11 +80,20 @@ Provide added security to our MySQL server by running *$ sudo mysql-secure_insta
 
 On each prompt that comes press Y, add a password, and save.
 
-With mysql_server successfully configured, login into the mysql server.
+With mysql_server successfully configured, login into the mysql server and To exit from the web server we enter exit
 
 *$ sudo mysql*
 
+This will connect to the MYSQL server as the administrative database user root, which is inferred by the use of sudo command.
+
 ![sudo mysql](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/9f957bb3-5e72-4d4a-bcd4-503333ceb06c)
+
+![sudo security pwd](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/3f7db0bf-90f4-4e22-892b-e1986aa4908a)
+
+
+
+
+
 
 
 
