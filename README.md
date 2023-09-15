@@ -88,7 +88,20 @@ This will connect to the MYSQL server as the administrative database user root, 
 
 ![sudo mysql](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/9f957bb3-5e72-4d4a-bcd4-503333ceb06c)
 
-![sudo security pwd](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/3f7db0bf-90f4-4e22-892b-e1986aa4908a)
+![SUDO MYSQL DATABASE](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/329359b7-406c-4e70-8cc6-91fec1fdc84d)
+
+**Installing PHP and its Modules**
+
+Installing PHP along with necessary modules is an essential step for web development, enabling server-side scripting for dynamic web applications. Below are instructions for installing PHP and its modules on a Linux system, which is a common platform for web servers.
+
+Run *$sudo apt install php-fpm php-mysql*
+
+php-fpm : which stands for PHP FastCGI Process Manager is a web tool used for speeding up the performance of a website by handling tremendous amounts of load simultaneously
+
+
+
+
+
 
 
 
