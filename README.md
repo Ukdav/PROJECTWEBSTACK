@@ -74,9 +74,18 @@ Run *$ sudo apt install mysql-server*
 
 ![sudo apt install mysql server](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/15543f3b-7b43-4069-9157-75e1fb2e4ed3)
 
-Provide added security to our mysql server by running *$ sudo apt install mysql-secure_installation*. This script will remove some insecure default settings and lock down access to our database system.
+Provide added security to our MySQL server by running *$ sudo mysql-secure_installation*. This script will remove some insecure default settings and lock down access to our database system.
 
 ![sudo security pwd](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/7d317b2e-6dd6-4c41-b36f-36dae7954aeb)
+
+On each prompt that comes press Y, add a password, and save.
+
+With mysql_server successfully configured, login into the mysql server.
+
+*$ sudo mysql*
+
+![SUDO MYSQL DATABASE](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/807c0b0c-04e0-4926-9e54-f9f67e4d4cfb)
+
 
 
 
