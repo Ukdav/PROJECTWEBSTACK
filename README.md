@@ -120,6 +120,14 @@ The following snippets represent the configuration required for our web server b
 
 #/etc/nginx/sites-available/projectlempstack
 
+**We then link the configuration file to the sites-enabled directory**
+
+*$ sudo ln -s /etc/nginx/sites-available/projectlempstack /etc/nginx/sites-enabled*
+
+To test our configuration for errors we run
+
+*$ sudo nginx -t*
+
 ![sudo nano](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/d6fb8d7d-6ce3-4262-b190-5a5a09e553d6)
 
 #/etc/nginx/sites-available/projectlempstack
