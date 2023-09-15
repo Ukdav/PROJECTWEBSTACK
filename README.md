@@ -110,6 +110,21 @@ To serve our web content on our web server!, we create a directory for our proje
 
 ![projectlempstack_creation](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/84798636-8fcb-4115-b109-9c3229778beb)
 
+![projectlempstack_creation](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/9e76766b-2881-4043-a45a-98ccb975998b)
+
+**Creating a configuration for our server block**
+
+*$ sudo nano /etc/nginx/sites-available/projectlempstack*
+
+The following snippets represent the configuration required for our web server block to be functional
+
+#/etc/nginx/sites-available/projectlempstack
+
+![sudo nano](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/d6fb8d7d-6ce3-4262-b190-5a5a09e553d6)
+
+
+
+
 
 
 
