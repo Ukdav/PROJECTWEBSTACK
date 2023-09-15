@@ -206,6 +206,13 @@ Create a PHP file todo_list.php in /var/www/projectlempstack directory and paste
 
 ![nano todo list php](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/286361ea-0e68-4677-847b-2297aacd4cf9)
 
+We can then access our webpage via a browser http://13.48.43.228/todo_list.php
+
+![todo list](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/52265252-7fb6-49ae-ae37-53dc98bbfec5)
+
+
+
+
 
 
 
