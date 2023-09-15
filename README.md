@@ -174,6 +174,21 @@ On a browser enter http://13.48.43.228/info.php
 
 ![info php webpage](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/aa5798c4-36cc-4f92-a3db-ab7e2c5c7495)
 
+**Connecting PHP with MySQL and Fetching Content**
+
+Login into our mysql-server sudo mysql.
+
+Create a new database CREATE DATABASE <db_name>
+
+Create a new user and assign the user a password CREATE USER 'db_user'@'%' IDENTIFIED WITH mysql_native_password BY 'db_password'.
+
+Grant the user permission over the created database GRANT ALL ON 'db_name'.* TO 'db_user'@'%'
+
+exit from the MySQL-server in which we are currently logged in as root users and then log in into mysql server using the created user.
+
+![SUDO MYSQL DATABASE](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/f1bebfd1-389f-460e-878d-0cd53a33854c)
+
+
 
 
 
