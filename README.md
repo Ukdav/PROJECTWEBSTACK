@@ -1,8 +1,7 @@
 ### PROJECTWEBSTACK
-##WEB STACK IMPLEMENTATION (LEMP STACK)
+**WEB STACK IMPLEMENTATION (LEMP STACK)**
 
-
-##Deploying a LEMP Stack Application On AWS Cloud
+**Deploying a LEMP Stack Application On AWS Cloud**
 
 Deploying a LEMP stack application on the AWS Cloud is a robust and flexible way to host web applications. The LEMP stack, consisting of Linux as the operating system, Nginx as the web server, MySQL as the database system, and PHP for server-side scripting, is a popular choice for web developers. AWS offers a range of services and tools to streamline the deployment process.
 
@@ -16,11 +15,18 @@ Steps to Deploy:
 
 4. Update and Install LEMP Components: Update the package list and install the LEMP stack components.
 
-##Creating an Ubuntu EC2 Instance
+**Creating an Ubuntu EC2 Instance**
 
 Login to AWS Cloud Service console and create an Ubuntu EC2 instance. The virtual machine is a Linux operating system that is the backbone of the LEMP Stack web application.
 
 ![Projectlemp Ec2 instance](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/3be4774c-834c-4e05-8eda-6afbb5e2226e)
+
+Login into the instance via ssh:
+cd Downloads
+*$ ssh -i lemp.pem Ubuntu@13.48.43.228*
+
+![ssh initial connection to ec2](https://github.com/Ukdav/PROJECTWEBSTACK/assets/139593350/89c2f101-67e5-40c1-8bac-7d2f7c10b8d2)
+
 
 
 
